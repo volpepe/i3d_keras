@@ -21,6 +21,10 @@ The results (the preprocessed rgb video and the optical flow video) are saved un
 
 ![Alt Text](data/gifs/cricket_flow.gif)
 
+# Jupyter Notebook with custom videos
+
+My fork of the project provides a Jupyter notebook that has been used on Google Colab for testing my own videos which are contained in ![my_videos.zip](my_videos.zip). All bash commands in the notebook are preceeded by a ```!``` because Colab requires it: to make it work on a local machine, keep in mind that all ```!``` commands are bash commands.
+
 # Usage
 ```
 bash main.sh
@@ -28,7 +32,6 @@ bash main.sh
 
 This script runs all the modules: `video preprocessing`, `model architecture` and `visualization of results`
 and installs all the required libraries.
-
 
 ### More details
 
